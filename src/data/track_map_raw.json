@@ -1,0 +1,862 @@
+[
+  {
+    "type": "LINE",
+    "start": [
+      10.3560258287,
+      220.242088253
+    ],
+    "end": [
+      582.6074030636,
+      220.242088253
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      10.8030972172,
+      193.8648763335
+    ],
+    "end": [
+      582.6074030636,
+      193.8648763335
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      181.5843676107,
+      220.242088253
+    ],
+    "end": [
+      183.3726531646,
+      220.242088253
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      183.3726531646,
+      220.242088253
+    ],
+    "end": [
+      198.0672844719,
+      240.4675131123
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      198.0672844719,
+      240.4675131123
+    ],
+    "end": [
+      447.5918437472,
+      240.4675131123
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      447.5918437472,
+      240.4675131123
+    ],
+    "end": [
+      462.2864750545,
+      220.242088253
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      142.1833609138,
+      173.6394514742
+    ],
+    "end": [
+      381.4252782544,
+      173.6394514742
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      381.4252782544,
+      173.6394514742
+    ],
+    "end": [
+      396.1199095618,
+      193.8648763335
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      142.1833609138,
+      173.6394514742
+    ],
+    "end": [
+      115.339386789,
+      173.6394514742
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      145.3715851451,
+      153.4140266148
+    ],
+    "end": [
+      397.0727768507,
+      153.4140266148
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      397.0727768507,
+      153.4140266148
+    ],
+    "end": [
+      426.4620394653,
+      193.8648763335
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      374.7192074275,
+      153.4140266148
+    ],
+    "end": [
+      360.0245761202,
+      133.1886017554
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      145.3715851451,
+      153.4140266148
+    ],
+    "end": [
+      130.6769538377,
+      173.6394514742
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      360.0245761202,
+      133.1886017554
+    ],
+    "end": [
+      206.6203653647,
+      133.1886017554
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      206.6203653647,
+      133.1886017554
+    ],
+    "end": [
+      191.9257340574,
+      153.4140266148
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      196.4108478638,
+      117.0082618679
+    ],
+    "end": [
+      435.0738448702,
+      117.0082618679
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      435.0738448702,
+      117.0082618679
+    ],
+    "end": [
+      464.4631074848,
+      157.4591115867
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      464.4631074848,
+      157.4591115867
+    ],
+    "end": [
+      490.913443838,
+      193.8648763335
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      161.9132265183,
+      153.4140266148
+    ],
+    "end": [
+      188.3635628714,
+      117.0082618679
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      188.3635628714,
+      117.0082618679
+    ],
+    "end": [
+      196.4108478638,
+      117.0082618679
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      482.9104834359,
+      376.2700028272
+    ],
+    "end": [
+      500.7933389745,
+      376.2700028272
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      483.8046262129,
+      362.8578611732
+    ],
+    "end": [
+      500.7933389745,
+      362.8578611732
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      80.7131006816,
+      193.8648763335
+    ],
+    "end": [
+      68.5939005441,
+      220.242088253
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      115.339386789,
+      173.6394514742
+    ],
+    "end": [
+      103.2201866514,
+      193.8648763335
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      549.8992774365,
+      220.242088253
+    ],
+    "end": [
+      556.3917060816,
+      193.8648763335
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      514.4073341765,
+      220.242088253
+    ],
+    "end": [
+      509.6462198367,
+      193.8648763335
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      483.7050134897,
+      349.2290025531
+    ],
+    "end": [
+      500.547271831,
+      349.2290025531
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "POINT",
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      10.0,
+      10.0
+    ],
+    "end": [
+      584.0,
+      10.0
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      584.0,
+      10.0
+    ],
+    "end": [
+      584.0,
+      410.0
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      584.0,
+      410.0
+    ],
+    "end": [
+      10.0,
+      410.0
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      10.0,
+      410.0
+    ],
+    "end": [
+      10.0,
+      10.0
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      441.125,
+      10.0
+    ],
+    "end": [
+      441.125,
+      60.8
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      463.35,
+      32.225
+    ],
+    "end": [
+      463.35,
+      60.8
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      482.4,
+      32.225
+    ],
+    "end": [
+      482.4,
+      60.8
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      504.625,
+      10.0
+    ],
+    "end": [
+      504.625,
+      60.8
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      514.15,
+      22.7
+    ],
+    "end": [
+      514.15,
+      32.098
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      526.85,
+      10.0
+    ],
+    "end": [
+      526.85,
+      16.35
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      552.25,
+      10.0
+    ],
+    "end": [
+      552.25,
+      16.35
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      574.348,
+      22.7
+    ],
+    "end": [
+      574.348,
+      32.098
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      441.125,
+      60.8
+    ],
+    "end": [
+      584.0,
+      60.8
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      441.125,
+      55.085
+    ],
+    "end": [
+      504.625,
+      55.085
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      441.125,
+      49.37
+    ],
+    "end": [
+      504.625,
+      49.37
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      504.625,
+      45.052
+    ],
+    "end": [
+      584.0,
+      45.052
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      441.125,
+      43.655
+    ],
+    "end": [
+      504.625,
+      43.655
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      441.125,
+      37.94
+    ],
+    "end": [
+      504.625,
+      37.94
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      441.125,
+      32.225
+    ],
+    "end": [
+      584.0,
+      32.225
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      504.625,
+      22.7
+    ],
+    "end": [
+      584.0,
+      22.7
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      504.625,
+      16.35
+    ],
+    "end": [
+      584.0,
+      16.35
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "INSERT",
+    "layer": "Default"
+  },
+  {
+    "type": "MULTILEADER",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "INSERT",
+    "layer": "Default"
+  },
+  {
+    "type": "MULTILEADER",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "INSERT",
+    "layer": "Default"
+  },
+  {
+    "type": "MULTILEADER",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "INSERT",
+    "layer": "Default"
+  },
+  {
+    "type": "MULTILEADER",
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      457.0,
+      410.0
+    ],
+    "end": [
+      457.0,
+      390.95
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      466.652,
+      403.65
+    ],
+    "end": [
+      466.652,
+      390.95
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      536.248,
+      403.65
+    ],
+    "end": [
+      536.248,
+      390.95
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      558.6,
+      403.65
+    ],
+    "end": [
+      558.6,
+      390.95
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      457.0,
+      403.65
+    ],
+    "end": [
+      584.0,
+      403.65
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "LINE",
+    "start": [
+      457.0,
+      397.3
+    ],
+    "end": [
+      584.0,
+      397.3
+    ],
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  },
+  {
+    "type": "MTEXT",
+    "layer": "Default"
+  }
+]
