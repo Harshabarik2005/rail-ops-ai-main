@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Brain, CheckCircle, Clock, AlertTriangle, ArrowRight } from "lucide-react";
+import { Brain, CircleCheck as CheckCircle, Clock, TriangleAlert as AlertTriangle, ArrowRight } from "lucide-react";
 import { useOptimizationUpdates } from "@/hooks/useWebSocket";
 import { useState, useEffect } from "react";
 import { apiClient } from "@/lib/api";
