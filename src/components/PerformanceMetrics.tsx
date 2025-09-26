@@ -1,9 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { TrendingUp, TrendingDown, Clock, Target, Zap } from "lucide-react";
+import { useRealTimeMetrics } from "@/hooks/useWebSocket";
+import { useState, useEffect } from "react";
 
 export const PerformanceMetrics = () => {
-  const metrics = [
+  const [metrics, setMetrics] = useState([
     {
       label: "Punctuality Rate",
       value: 87,
@@ -32,7 +34,27 @@ export const PerformanceMetrics = () => {
       trend: "up",
       change: "+1.8%"
     }
-  ];
+  ]);
+
+  // Use WebSocket for real-time metrics updates
+  useRealTimeMetrics((metricsData) => {
+    if (metricsData) {
+      setMetrics(prev => prev.map(metric => {
+        switch (metric.label) {
+          case "Punctuality Rate":
+            return { ...metric, value: metricsData.punctualityRate || metric.value };
+          case "Throughput Efficiency":
+            return { ...metric, value: metricsData.throughputEfficiency || metric.value };
+          case "Average Transit Time":
+            return { ...metric, value: metricsData.averageDelay ? 100 - metricsData.averageDelay : metric.value };
+          case "Resource Utilization":
+            return { ...metric, value: metricsData.activeTrains ? (metricsData.activeTrains / 30) * 100 : metric.value };
+          default:
+            return metric;
+        }
+      }));
+    }
+  });
 
   return (
     <Card className="shadow-control">

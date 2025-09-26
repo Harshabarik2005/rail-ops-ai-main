@@ -2,9 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Brain, CheckCircle, Clock, AlertTriangle, ArrowRight } from "lucide-react";
+import { useOptimizationUpdates } from "@/hooks/useWebSocket";
+import { useState, useEffect } from "react";
+import { apiClient } from "@/lib/api";
 
 export const AIRecommendations = () => {
-  const recommendations = [
+  const [recommendations, setRecommendations] = useState([
     {
       id: 1,
       type: "optimization",
@@ -35,7 +38,31 @@ export const AIRecommendations = () => {
       confidence: 78,
       action: "Plan"
     }
-  ];
+  ]);
+
+  // Load recommendations from API
+  useEffect(() => {
+    const loadRecommendations = async () => {
+      try {
+        const response = await apiClient.getRecommendations();
+        if (response.success) {
+          setRecommendations(response.data);
+        }
+      } catch (error) {
+        console.error('Failed to load recommendations:', error);
+      }
+    };
+
+    loadRecommendations();
+  }, []);
+
+  // Use WebSocket for real-time optimization updates
+  useOptimizationUpdates((optimizationData) => {
+    // Refresh recommendations when optimization completes
+    if (optimizationData?.status === 'completed') {
+      // Reload recommendations
+    }
+  });
 
   const getPriorityConfig = (priority: string) => {
     switch (priority) {

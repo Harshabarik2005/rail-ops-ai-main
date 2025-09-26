@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ZoomIn, ZoomOut, RotateCcw, Play, Pause } from 'lucide-react';
+import { useRealTimeTrains } from '@/hooks/useWebSocket';
 import trackData from '@/data/track_map_raw.json';
 
 interface TrackElement {
@@ -27,35 +28,67 @@ const TrackLayout = () => {
   const [scale, setScale] = useState(1);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
   const [isSimulating, setIsSimulating] = useState(false);
-  const [trains, setTrains] = useState<Train[]>([
-    {
-      id: '12002',
-      name: 'Shatabdi Express',
-      position: [100, 220],
-      direction: 0,
-      speed: 2,
-      color: '#10b981',
-      status: 'moving'
-    },
-    {
-      id: '22470',
-      name: 'Rajdhani Express',
-      position: [200, 194],
-      direction: 0,
-      speed: 1.5,
-      color: '#f59e0b',
-      status: 'delayed'
-    },
-    {
-      id: '16032',
-      name: 'Andaman Express',
-      position: [150, 173],
-      direction: 0,
-      speed: 2.2,
-      color: '#3b82f6',
-      status: 'moving'
+  const [trains, setTrains] = useState<Train[]>([]);
+
+  // Use WebSocket for real-time train updates
+  useRealTimeTrains((trainData) => {
+    if (Array.isArray(trainData)) {
+      setTrains(trainData.map(train => ({
+        id: train.id,
+        name: train.name || `Train ${train.id}`,
+        position: train.position,
+        direction: train.heading || 0,
+        speed: train.speed,
+        color: getTrainColor(train.status),
+        status: train.status
+      })));
     }
-  ]);
+  });
+
+  const getTrainColor = (status: string) => {
+    switch (status) {
+      case 'on-time': return '#10b981';
+      case 'delayed': return '#f59e0b';
+      case 'critical': return '#ef4444';
+      case 'stopped': return '#6b7280';
+      default: return '#3b82f6';
+    }
+  };
+
+  // Initialize with default trains if no real-time data
+  useEffect(() => {
+    if (trains.length === 0) {
+      setTrains([
+        {
+          id: '12002',
+          name: 'Shatabdi Express',
+          position: [100, 220],
+          direction: 0,
+          speed: 2,
+          color: '#10b981',
+          status: 'moving'
+        },
+        {
+          id: '22470',
+          name: 'Rajdhani Express',
+          position: [200, 194],
+          direction: 0,
+          speed: 1.5,
+          color: '#f59e0b',
+          status: 'delayed'
+        },
+        {
+          id: '16032',
+          name: 'Andaman Express',
+          position: [150, 173],
+          direction: 0,
+          speed: 2.2,
+          color: '#3b82f6',
+          status: 'moving'
+        }
+      ]);
+    }
+  }, [trains.length]);
 
   // Calculate canvas bounds from track data
   const getBounds = () => {
